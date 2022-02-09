@@ -228,6 +228,7 @@ header{
     font-size: 15px;
     appearance: none;
     flex-basis: 279px;
+    background: white;
     background-image:url(../image/arrow.svg);
     background-size:12.79px 7.75px;
     background-repeat:no-repeat;
@@ -292,6 +293,9 @@ header{
     display: block;
     width: 18px;
     height: 18px;
+}
+.menu-grid-text{
+    text-transform: uppercase;
 }
 .menu-header{
     margin-top: 64px;
@@ -363,6 +367,9 @@ header{
 .footer-list__item a{
     text-decoration: none;
     color: #FBB731;
+}
+.footer-list__item a:hover{
+    color:white;
 }
 
 

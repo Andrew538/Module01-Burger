@@ -530,7 +530,10 @@ header{
 /* Responsive */
 
 @media (min-width: 1001px) {
-    .footer-list-tel  {
+    .footer-list-tablet .footer-list__item  {
+        display: none;
+    }
+    .mobile {
         display: none;
     }
 }

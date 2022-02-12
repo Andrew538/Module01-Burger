@@ -282,6 +282,7 @@ header{
     gap: 9px;
     border: none;
     transition: 0.3s;
+    cursor: pointer;
 }
 .menu-grid-btn:hover{
     background-color: #F37335;
@@ -633,12 +634,12 @@ header{
 }
 @media(max-width: 754px) {
     .footer-box {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 30px;
     }
     .footer-item-mobile {
         display: flex;
-        gap: 52px;
+        gap: 50px;
     }
     .footer-item-mobile .footer-list-tel {
         margin: 0;
@@ -652,6 +653,9 @@ header{
         font-size: 20px;
         line-height: 31px;
     }
+    .footer-item {
+        margin-right: 33px;
+    }
 }
 @media (max-width: 611px) {
     .menu-select {
@@ -659,6 +663,13 @@ header{
     }
     .menu-grid-cover {
         height: 293px;
+    }
+    .footer-item {
+        flex: 0 0 98%;}
+    .footer-item-mobile {  
+        justify-content: space-between;
+        box-sizing: border-box;
+        gap: 17%;
     }
 }
 
@@ -683,7 +694,10 @@ header{
         font-size: 27px;
     }
     .menu-other {
-        height: 570px;
+        height: 595px;
+    }
+    .footer {
+        margin-top: 57px;
     }
 }
 @media(max-width: 360px) {

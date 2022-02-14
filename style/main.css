@@ -714,6 +714,7 @@ header{
     }
     .menu-grid {
         gap:30px 20px;
+    }
 }
 @media(max-width: 434px) {
     .menu-title {

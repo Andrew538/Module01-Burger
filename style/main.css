@@ -361,7 +361,7 @@ header{
 .footer-tel ul {
     font-size: 20px;
     font-weight: 800;
-    margin-top: 8px;
+    margin-top: 0;
 }
 .footer-tel li {
     margin-bottom: 12px;
@@ -613,7 +613,7 @@ header{
 }
     .footer {
         padding-top: 60px;
-        margin-top: 127px;
+        margin-top: 67px;
     }
     .menu-grid .menu-grid-item  {
         flex: 0 0 44vw;
@@ -643,6 +643,27 @@ header{
     }
 }
 @media(max-width: 754px) {
+    .footer-item-mobile {
+        display: flex;
+        gap: 50px;
+    }
+    .footer {
+         margin-top: 10vw;
+    }
+    .footer-item-mobile .footer-list-tel {
+        margin: 0;
+        display: none;
+    }
+    .mobile a {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 31px;
+    }
+    .menu-other .menu-grid {
+        padding-bottom: 164px;
+    }
+}
+@media (max-width:680px) {
     .footer-box {
         flex-wrap: wrap;
         gap: 30px;
@@ -655,20 +676,16 @@ header{
         margin: 0;
         display: block;
     }
+    .footer-logo {
+        margin-top: 8px;
+    }
     .footer-list-tablet {
         display: none;
     }
-    .mobile a {
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 31px;
+    .footer {
+        margin-top: 1vw;
     }
-    .menu-other .menu-grid {
-        padding-bottom: 164px;
-    }
-    .footer-item {
-        margin-right: 33px;
-    }
+
 }
 @media (max-width: 611px) {
     .menu-select {
@@ -692,11 +709,16 @@ header{
         height: 708px;
     }
     .footer {
-        margin-top: 0;
+        margin-top: 65px;
     }
         
 }
-
+@media(max-width: 586px) {
+    .menu-other {
+        overflow: hidden;
+        height: 637px;
+    }
+}
 @media(max-width: 493px) {
     .title {
         font-size: 38px;
@@ -725,7 +747,7 @@ header{
     } 
     .menu-other
     {
-        height: 595px;
+        height: 549px;
     }
     .footer {
         margin-top: 51px;
@@ -814,6 +836,18 @@ header{
     }
     .additionally {
         margin-top: 10px
+    }
+}
+@media(max-width: 295px) {
+    .banner-title span {
+        padding: 5px 3px 5px 13px;
+    }
+    .banner-box {
+        background-position: -218px center;
+        padding: 36px 44px 32px 15px;
+    }
+    .banner-link {
+        padding: 7px 0 11px;
     }
 }
 /* Responsive INDEX */

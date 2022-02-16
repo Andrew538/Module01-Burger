@@ -387,7 +387,7 @@ header{
     text-decoration: none;
     padding: 5px 20px;
     position: fixed;
-    bottom: 20px;
+    bottom: 57%;
     right: 20px;
     border-radius: 5px;
     transition: 1s;
@@ -398,7 +398,7 @@ header{
 .button-up.hidden{
     opacity: 0;
 }
-.button-up.visible{
+.button-up.visible {
     opacity: 1;
 }
 /* Style INDEX */
@@ -457,6 +457,7 @@ header{
     display: flex;
     justify-content: flex-end;
     position: relative;
+   
 }
 .visual-bg {
     width: 432px;
@@ -673,7 +674,7 @@ header{
     }
     .footer-item-mobile {
         display: flex;
-        gap: 58vw;
+        gap: 55vw;
     }
     .footer-item-mobile .footer-list-tel {
         margin: 0;
@@ -765,6 +766,9 @@ header{
     }
     .footer {
         margin-top: 51px;
+    }
+    .button-up {
+        margin-bottom: 18%;
     }
 }
 @media(max-width: 360px) {

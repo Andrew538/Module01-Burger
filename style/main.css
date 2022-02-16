@@ -699,6 +699,7 @@ header{
     }
     .menu-grid-cover {
         height: 56vw;
+        margin-bottom: 11px;
     }
     .footer-item {
         flex: 0 0 98%;
@@ -740,6 +741,9 @@ header{
     .banner-box {
         background-position: -80px center;
         padding: 35px 24px 34px 24px;
+    }
+    .menu-grid-cover {
+        margin-bottom: 7px;
     }
     .menu-grid-cover img {
         height: 100%;
@@ -806,7 +810,6 @@ header{
     .menu-grid-cover {
         width: 44vw;
         height: 201px;
-        margin-bottom: 0;
     }
     .menu-grid-cover img {
         height: 100%; 

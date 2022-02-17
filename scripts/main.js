@@ -51,4 +51,5 @@ function scrollFunction(){
 function closeModal() {
     document.getElementById("modal").style.top = "-400px";
 }
- 
+
+alert(window.innerWidth)

@@ -387,7 +387,7 @@ header{
     text-decoration: none;
     padding: 5px 20px;
     position: fixed;
-    bottom: 57%;
+    bottom: 10px;
     right: 20px;
     border-radius: 5px;
     transition: 1s;
@@ -642,7 +642,7 @@ header{
         height: 387px;
     }
     .menu-grid-title {
-        font-size: 19px;
+        font-size: 22px;
     }
 }
 @media(max-width: 754px) {
@@ -667,6 +667,8 @@ header{
     }
 }
 @media (max-width:680px) {
+   
+
     .footer-box {
         /* flex-wrap: wrap; */
         flex-direction: column;
@@ -730,10 +732,14 @@ header{
         overflow: hidden;
         height: 637px;
     }
+    .menu-grid-title {
+        font-size: 20px;
+    }
 }
 @media(max-width: 493px) {
     .title {
         font-size: 38px;
+        margin: 7px 0 7px 0;
     }
     .bg {
         padding: 91px 0;
@@ -744,13 +750,20 @@ header{
         padding: 35px 24px 34px 24px;
     }
     .menu-grid-cover {
-        margin-bottom: 7px;
+        margin-bottom: 1px;
     }
     .menu-grid-cover img {
         height: 100%;
     }
     .menu-grid {
-        gap:30px 20px;
+        gap:25px 20px;
+    }
+    .menu-grid-price {
+        margin-top: 0;
+        margin-bottom: 7px;
+    }
+    .menu-grid-btn {
+        padding: 10px 14px;
     }
 }
 @media(max-width: 434px) {
@@ -759,7 +772,14 @@ header{
     }
     .menu-grid-title {
         font-size: 16px;
-    } 
+    }
+    .menu-grid-price {
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+    .menu-grid-btn {
+        padding: 10px 13px;
+    }
     .menu-other
     {
         height: 549px;
@@ -771,6 +791,7 @@ header{
         margin-bottom: 18%;
     }
 }
+    
 @media(max-width: 360px) {
     .header {
         gap: 18px;
@@ -788,7 +809,7 @@ header{
         font-size: 14px;
     }
     .title {
-        margin: 32px 0 8px 0;
+        margin: 8px 0 8px 0;
     }
     .description {
         font-size: 13px;
@@ -819,7 +840,7 @@ header{
         height: 100%; 
     }
     .menu-grid-title{
-        font-size: 13px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 20px;
     }
@@ -830,7 +851,7 @@ header{
         margin-bottom: 5px;
     }
     .menu-grid-btn {
-        padding: 10px 21px;
+        padding: 10px 13px;
     }
     .menu-select {
         font-size: 13px;
@@ -846,7 +867,7 @@ header{
     .menu-other .menu-grid {
         gap: 16px 4.5px;
     }
-     .menu-other .menu-grid-cover  {
+     .menu-other .menu-grid-cover {
         width: 100%;
         height: 61.7vw;
     }
@@ -857,7 +878,7 @@ header{
         height: 431px; 
     }
     .additionally {
-        margin-top: 10px
+        margin-top: 7px
     }
 }
 @media(max-width: 295px) {

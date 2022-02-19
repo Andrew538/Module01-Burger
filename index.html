@@ -12,22 +12,29 @@
     <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-    <div class="main">
-        <div class="wrapper">
-            <div class="content">
-                <h1 class="content-title">
-                    <span>работаем с 11:00 до 22:00</span>
-                    лучшие бургеры
-                </h1>
-                <p class="content-text">Закажи наши фирменные бурегры или собери что-то своё, а&nbsp;наши курьеры доставят за&nbsp;30&nbsp;минут</p>
-                <a class="content-link" href="menu.html">заказать</a>
+    <!-- <div class="main"> -->
+        <section class="section">
+            <div class="section__content">
+               <div class="section__container">
+                   <div class="section__body">
+                        <h1 class="section__title">
+                            <span>работаем с 11:00 до 22:00</span>
+                           лучшие бургеры
+                        </h1>
+                        <p class="section__text">Закажи наши фирменные бурегры или собери что-то своё, <br> а &nbsp;наши курьеры доставят за&nbsp;30&nbsp;минут</p>
+                        <a class="section__link" href="menu.html">заказать</a>
+                   </div>
+               </div>
             </div>
             <div class="visual">
                 <div class="visual-bg"></div>
+                <div class="visual__img">
                 <img src="image/burger.png" alt="Burger">
+
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    <!-- </div> -->
     <div class="promo">
         <div class="wrapper">
             <div class="promo-left">
@@ -45,8 +52,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-box">
-                <div class="footer-item">
+                <div class="footer-item footer-item-mobile">
                     <img class="footer-logo" src="./image/logo-footer.svg" alt="Логотип">
+                    <ul class="footer-list footer-list-tel mobile">
+                        <li class="footer-list__item"><a href="tel:+79007871313">+ 7 900 787 13-13</a></li>
+                        <li class="footer-list__item"><a href="tel:+79007001414">+ 7 900 700 14-14</a></li>
+                    </ul>
                 </div>
                     <div class="footer-item">
                         <h2>Основные ссылки</h2>
@@ -55,6 +66,10 @@
                             <li class="footer-nav__item"><a href="#">Заказ и Доставка</a></li>
                             <li class="footer-nav__item"><a href="#">Методы оплаты</a></li>
                             <li class="footer-nav__item"><a href="#">Контакты</a></li>
+                        </ul>
+                        <ul class="footer-list footer-list-tablet">
+                            <li class="footer-list__item"><a href="tel:+79007871313">+ 7 900 787 13-13</a></li>
+                            <li class="footer-list__item"><a href="tel:+79007001414">+ 7 900 700 14-14</a></li>
                         </ul>
                     </div>
                     <div class="footer-item">

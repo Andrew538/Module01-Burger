@@ -470,7 +470,30 @@ header{
     display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700;    
+}
+.section__link,
+.promo a {
+    animation: button;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes button{
+    0% {
+        background-color:#DEDEDE;
+        border-radius: 5px;
+    }
+    50% {
+        background:#a1b5ca;
+    }
+    100% {
+        background:#F37335;
+        border-radius: 50px;
+    }
 }
 .visual {
     flex-grow: 1;
@@ -486,7 +509,23 @@ header{
     left: 12vw;
     height: 100%;
     background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+    animation: vis-bg ;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate; 
 }
+/* ===== Animation for .visual-bg */
+@keyframes vis-bg {
+    0% {
+        background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%); 
+        height: 0;
+    }
+    100% {
+        height: 100%;
+        background: linear-gradient(2.42deg, #b6440b -100.6%, #FBB731 50.79%, #FDC830 19.79%);
+    }
+}
+
 .main img {
     width: 829px;
     position: absolute;
@@ -496,6 +535,35 @@ header{
     padding-top: 186px;
     padding-bottom: 46px;
 }
+/*======= Animation burger ===============*/
+@keyframes burgers {
+    0%{
+        bottom: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.2;
+        right: 20px;
+        top: 100px;
+        transform: rotate(360deg);
+    }
+}
+.visual__img img{
+    animation: burgers ;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-delay: 1s; */
+    animation-fill-mode: forwards;
+}
+/*===========================================*/
+
 .promo-left,
 .promo-right {
     flex: 0 0 49%;

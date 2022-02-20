@@ -485,14 +485,12 @@ header{
 @keyframes button{
     0% {
         background-color:#DEDEDE;
-        border-radius: 5px;
     }
     50% {
         background:#a1b5ca;
     }
     100% {
         background:#F37335;
-        border-radius: 50px;
     }
 }
 .visual {
@@ -540,7 +538,6 @@ header{
     0%{
         bottom: 0px;
         left: 0px;
-        transform: rotate(0deg);
         opacity: 0.2;
     }
     50% {
@@ -548,9 +545,7 @@ header{
     }
     100%{
         opacity: 0.2;
-        right: 20px;
-        top: 100px;
-        transform: rotate(360deg);
+        top: 200px;
     }
 }
 .visual__img img{

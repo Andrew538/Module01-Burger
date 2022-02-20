@@ -554,19 +554,22 @@ header{
     }
 }
 .visual__img img{
-    -webkit-animation: burgers ;
-    -webkit-animation-duration: 7s;
+    animation: burgers;
     animation-duration: 7s;
-    -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
     animation-direction: alternate;
     animation-delay: 1s;
-    -webkit-animation-delay: 1s;
     animation-fill-mode: forwards;
+    /* webkit for for mobile browser chrome */
+    -webkit-animation: burgers ;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-delay: 1s;
     -webkit-animation-fill-mode: forwards;
+    /* ====================================== */
 }
 /*===========================================*/
 
